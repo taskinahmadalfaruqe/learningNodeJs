@@ -1,2 +1,3 @@
 const add = (params01, params02) => params01 + params02;
-module.exports = add;
+let a = 100;
+module.exports = { add, a };
